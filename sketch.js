@@ -10,7 +10,7 @@ function setup(){
   createCanvas(600,200);
   
   // creating trex
-  trex = createSprite(50,160,20,50);
+  trex = createSprite(50,150,20,50);
   trex.addAnimation("running", trex_running);
   edges = createEdgeSprites();
   
